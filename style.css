@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif, 'poppins';
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 1px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px 0;
+}
+.logo{
+    width: 150px;
+}
+.lang{
+    height: 30px;
+    width: 90px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 3px; 
+}
+.Login{
+    height: 30px;
+    width: 90px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    margin-left: 7px;
+    text-align: center;
+    border-radius: 3px;
+} 
+.content {
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    margin-top: 60px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.content h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 600;
+    max-width: 650px; 
+}
+
+.content h3{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;    
+}
+.email input{
+    height: 50px;
+    flex: 1;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+    border-color: 2px white;
+    margin-left: 20px;
+    background-color: transparent;
+}
+.email ::placeholder{
+    color: white;
+    padding-left: 15px;
+}
+.email button{
+    background: #db0001;
+    height: 50px;
+    border-radius: 4px;
+    border: 0;
+    outline: 0;
+    color: white;    
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-left: 15px;
+}
+
+.trending{
+    padding: 30px 100px; 
+}
+
+.option1{
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+.option2{
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.show{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-left: 80px;
+    
+}
+.show img{
+    margin-left: 30px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.show button{
+    padding-left: 9px;
+    margin-left: 15px;
+    background-color: #FFFFFF1a;
+    color: white;
+    height: 130px;
+    margin-top: 33px;
+    font-size: 30px;
+}
+
+.box{
+    display: flex;
+}
+.box1{
+    padding: 65px 100px; 
+
+}
+.box1 h4{
+    background-color: rgba(35, 11, 65, 0.8);
+    color: white;
+    margin-top: 10px;
+    margin-left: 0px;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.box1 p{
+    font-size: 10px;
+    padding: 10px  0;
+    color: #FFFFFFB3;
+}
+.box1 img{
+    height: 50px;
+    width: 50px;
+    margin-top: 45px;
+    margin-left: 150px;
+}
+
+.box2 h4{
+    background-color: rgba(35, 11, 65, 0.8);
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.box2 p{
+    font-size: 10px;
+    padding: 5px  0;
+    color: #FFFFFFB3;
+}
+
+.box3 h4{
+    background-color: rgba(35, 11, 65, 0.8);
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+.box3 p{
+    font-size: 10px;
+    padding: 15px  0;
+    color: #FFFFFFB3;  
+}
+
+.box4 h4{
+    background-color: rgba(35, 11, 65, 0.8);
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+.box4 p{
+    font-size: 10px;
+    padding: 10px  0;
+    color: #FFFFFFB3;  
+}
+
+.question{
+    padding: 10px 100px;
+}
+
+.net{
+    margin: 20px auto;
+    width: 100%;
+    max-width: 1200px;
+}
+.net li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.net li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+label::after{
+    content: '+';
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.net .ans{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.net input[type="radio"]:checked + label + .ans{
+    max-height: 600px;
+    padding: 30px 20px;
+
+} 
+
+.net input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+.second p{
+    text-align: center;   
+}
+
+.name{
+    height: 40px;
+    width: 400px;
+    font-weight: 500px;
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: 17px;
+    margin-left: 330px ;
+}
+
+button{
+    height: 40px;
+    width: 180px;
+    text-align: left;
+    font-size: 17px;
+    color: white;
+    background-color: #db0001;
+}
+
+.question .email{
+    max-width: 600px;
+    margin: 20px auto 60px;
+}
+
+small {
+    font-size: 13px;
+    padding-left: 30%; 
+}
+
+.footer{
+    padding: 50px 15% 10px;
+    border-top: 6px solid #333;
+    color: #777;
+}
+
+.footer h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer .column{
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+}
+
+.footer .column a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+}
+
+.eng{
+    height: 40px;
+    width: 130px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    background-color: black;
+}
+#net-f{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
